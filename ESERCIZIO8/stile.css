@@ -1,0 +1,48 @@
+figure {
+    border: thin #ff0000 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: rgb(101, 8, 8);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+  }
+
+@media screen and (max-width: 800px) {
+    img {
+        width: 100%;
+    }
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    background-color:red;
+    text-align:center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    color: red;
+    border: thin #ff0000 solid;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify ;
+    padding: auto;
+}
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ebd8aaac;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 8, 8);
+}
